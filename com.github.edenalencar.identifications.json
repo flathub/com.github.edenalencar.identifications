@@ -31,11 +31,11 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/edenalencar/identifications.git",
-                    "commit": "4448facb8d51f38629137d522c5f0638f19e4e4a",
-                    "tag": "0.1.2",
+                    "commit": "00a79abf4e7a9fcba0393e71ce927f4335aa5d87",
+                    "tag": "0.2.0",
                     "x-checker-data": {
                         "type": "git",
-                        "tag": "^0\\.1\\.[\\d]+$"
+                        "tag": "^0\\.2\\.[\\d]+$"
                     }
                 }
             ]
