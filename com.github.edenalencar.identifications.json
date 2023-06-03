@@ -5,6 +5,7 @@
     "sdk": "org.gnome.Sdk",
     "command": "identifications",
     "finish-args": [
+        "--device=dri",
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
