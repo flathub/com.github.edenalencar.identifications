@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.edenalencar.identifications",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "identifications",
     "finish-args": [
@@ -10,32 +10,18 @@
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
-    ],
     "modules": [
         {
             "name": "identifications",
-            "builddir": true,
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/edenalencar/identifications.git",
-                    "commit": "8b28f4d07568dbf02d001402ee06143d6c324df3",
                     "tag": "0.3.2",
+                    "commit": "8b28f4d07568dbf02d001402ee06143d6c324df3",
                     "x-checker-data": {
-                        "type": "git",
-                        "tag": "^0\\.3\\.[\\d]+$"
+                        "type": "git"
                     }
                 }
             ]
